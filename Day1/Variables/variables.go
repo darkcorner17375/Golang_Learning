@@ -33,7 +33,8 @@ func main() {
 	//指標型
 	var x string = "a"
 	var pf *string = &x
+	//資料的地址
 	fmt.Println(pf)
+	//資料
 	fmt.Println(*pf)
-
 }
