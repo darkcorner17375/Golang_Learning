@@ -12,5 +12,5 @@ func main() {
 		fmt.Println("有疫苗在別怕")
 	}()
 	panic("發現多名確診者!")
-	fmt.Println("是否會執行")
+	// fmt.Println("是否會執行")
 }
